@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TransurbanTest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ishan swarnajith</string>
+    <string name="nav_header_subtitle">ishanssi@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Favourites</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="dummy_text">dummy_text</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Toast_Added_fav">added to favourite list ..</string>
+    <string name="Toast_Removed_fav">Removed..</string>
+    <string name="Toast_Emptry_fav">Favourite List is Empty ..</string>
+    added to favourite list ..
+    <string name="myarray">
+        <item>Name</item>
+        <item>Model</item>
+        <item>Mnufacturer</item>
+        <item>Cost in Credits</item>
+        <item>Length</item>
+        <item>Max atmosphering speed</item>
+        <item>Crew</item>
+        <item>Passengers</item>
+        <item>Cargoo Capacity</item>
+        <item> Conumables</item>
+        <item>Hyperdrive rating</item>
+        <item>MGLT</item>
+        <item>Starshp Class</item>
+
+
+
+    </string>
+</resources>

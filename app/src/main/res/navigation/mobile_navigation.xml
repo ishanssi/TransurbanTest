@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.transurbantest.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_ship_details_fragment"
+            app:destination="@id/ship_details_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="com.example.transurbantest.ui.gallery.Favourite_Fragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/action_nav_gallery_to_fav_details_fragment"
+            app:destination="@id/fav_details_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ship_details_fragment"
+        android:name="com.example.transurbantest.ui.home.ship_details_fragment"
+
+        tools:layout="@layout/fragment_ship_details_fragment">
+        <action
+            android:id="@+id/action_ship_details_fragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/fav_details_fragment"
+        android:name="com.example.transurbantest.ui.gallery.Fav_details_fragment"
+        android:label="Fav_details_fragment">
+        <action
+            android:id="@+id/action_fav_details_fragment_to_nav_gallery"
+            app:destination="@id/nav_fav" />
+    </fragment>
+</navigation>
